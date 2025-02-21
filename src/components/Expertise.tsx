@@ -1,5 +1,5 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
+//import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
@@ -7,7 +7,7 @@ import '../assets/styles/Expertise.scss';
 import { faCogs } from '@fortawesome/free-solid-svg-icons';
 
 
-const labelsFirst = [
+/*const labelsFirst = [
     "React",
     "TypeScript",
     "JavaScript",
@@ -19,7 +19,7 @@ const labelsFirst = [
     "SQL",
     "PostgreSQL",
     "Postman"
-];
+];*/
 
 const labelsSecond = [
     "Git",
@@ -33,7 +33,7 @@ const labelsSecond = [
     "Selenium",
 ];
 
-const labelsThird = [
+/*const labelsThird = [
     "OpenAI",
     "Groq",
     "LangChain",
@@ -41,7 +41,7 @@ const labelsThird = [
     "Hugging Face",
     "LlamaIndex",
     "Streamlit",
-];
+];*/
 
 function Expertise() {
     return (

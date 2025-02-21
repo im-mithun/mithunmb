@@ -20,7 +20,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const drawerWidth = 240;
 const navItems = [['Areas', 'expertise'], ['Career', 'career'], ['Works', 'works'], ['Contact', 'contact']];
 
-function Navigation({parentToChild, modeChange}: any) {
+function Navigation({parentToChild}: any) {
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);

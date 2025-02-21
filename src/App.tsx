@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useEffect} from "react";
 import {
   Main,
   Timeline,
@@ -12,7 +12,7 @@ import FadeIn from './components/FadeIn';
 import './index.scss';
 
 function App() {
-    const [mode, setMode] = useState<string>('dark');
+    //const [mode, setMode] = useState<string>('dark');
 
     
 
