@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../assets/styles/Main.scss";
 
-const text = `I am a Mechanical Engineering student with a unique blend of passions, combining Computational Engineering and Data Science with automotive engineering and mechanical design. Proficient in Python, SQL, MATLAB, and CAD modeling, I bridge the gap between traditional mechanical engineering and cutting-edge computational techniques. My goal is to leverage this diverse skill set to enhance vehicle performance, optimize engineering processes, and drive innovation in the automotive industry. I'm equally passionate about coding and designing, using both to solve complex engineering challenges.`;
+const text = `I am a Mechanical Engineering student with a unique blend of passions. Proficient in Fullstack and CAD modeling, I bridge the gap between traditional mechanical engineering and cutting-edge computational techniques. My goal is to leverage this diverse skill set to enhance vehicle performance, optimize engineering processes, and drive innovation in the automotive industry. I'm equally passionate about coding and designing, using both to solve complex engineering challenges.`;
 
 const Typewriter = ({ text }: { text: string }) => {
   const [displayedText, setDisplayedText] = useState("");
