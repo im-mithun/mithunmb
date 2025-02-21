@@ -2,7 +2,7 @@
   "name": "mithun-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://im-mithun.github.io/mithun-portfolio",
+  "homepage": "http://im-mithun.github.io/mithunmb",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
