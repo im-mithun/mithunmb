@@ -31,7 +31,9 @@ function Main() {
           <p>
             <b>Product Design Engineer</b>
           </p>
+          <div className="text-container">
           <Typewriter text={text} />
+          </div>
         </div>
       </div>
     </div>
