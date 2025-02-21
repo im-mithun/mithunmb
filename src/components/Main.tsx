@@ -1,28 +1,37 @@
-import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import '../assets/styles/Main.scss';
+import React, { useState, useEffect } from "react";
+import "../assets/styles/Main.scss";
+
+const text = `I am a Mechanical Engineering student with a unique blend of passions, combining Computational Engineering and Data Science with automotive engineering and mechanical design. Proficient in Python, SQL, MATLAB, and CAD modeling, I bridge the gap between traditional mechanical engineering and cutting-edge computational techniques. My goal is to leverage this diverse skill set to enhance vehicle performance, optimize engineering processes, and drive innovation in the automotive industry. I'm equally passionate about coding and designing, using both to solve complex engineering challenges.`;
+
+const Typewriter = ({ text }: { text: string }) => {
+  const [displayedText, setDisplayedText] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText((prev) => prev + text[index]);
+        setIndex((prev) => prev + 1);
+      }, 10); // speed (milliseconds per character)
+
+      return () => clearTimeout(timeout);
+    }
+  }, [index, text]);
+
+  return <p>{displayedText}</p>;
+};
 
 function Main() {
-
   return (
     <div className="container">
       <div className="about-section">
-        <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
-        </div>
         <div className="content">
-          <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
-          <h1>Yuji Sato</h1>
-          <p>Full Stack Engineer</p>
-
-          <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
+          <h1>Mithun</h1>
+          <br />
+          <p>
+            <b>Product Design Engineer</b>
+          </p>
+          <Typewriter text={text} />
         </div>
       </div>
     </div>

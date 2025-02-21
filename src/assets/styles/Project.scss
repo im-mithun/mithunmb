@@ -10,6 +10,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
 }
+.projects-container h1 {
+    text-align: center;
+  }
+  
   
 .projects-container .projects-grid .project {
     text-align: left;

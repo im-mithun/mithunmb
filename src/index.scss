@@ -15,7 +15,7 @@ code {
 
 .main-container {
   position: relative;
-  background-color: #0d1116;
+  background-color: #000000;
 
 }
 
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: #5000ca;
+  color: #1a2f69;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
@@ -34,8 +34,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
 }
 
 .navigation-bar {
-  justify-content: space-between;
-  background-color: #0d1116;
+  justify-content: space-between; justify-content: 'center';
+  background-color: #101113;
 
   button {
     font-size: 1.1rem;
@@ -53,6 +53,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   span, p {
     color: #0d1116;
     font-family: "Lato", sans-serif;
+    justify-content: 'center';
   }
 }
 
@@ -63,6 +64,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .header-image {
@@ -92,59 +94,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
-.light-mode {
-  background-color: #f8f9fa;
-
-  .navigation-bar {
-    background-color: #f8f9fa;
-  }
-
-  p, a, h1, h2, h3, h4, h5, label, button {
-    color: #0d1116;
-  }
-
-  a:hover {
-    color: #5000ca;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-  }
-
-  .navigation-bar svg {
-    color: #0d1116;
-  }
-
-  .about-section {
-    background-image: url("./assets/images/bg-light.png");
-  }
-
-  .skills-container svg {
-    color: #0d1116;
-  }
-
-  .chip {
-    background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  }
-
-  .vertical-timeline::before {
-    background-color: rgba(0, 0, 0, 0.08);
-  }
-
-  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  }
-
-  .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: gray;
-  }
-
-  .vertical-timeline-element-content-arrow {
-    border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
-  }
-
-  .flex-chips .chip-title {
-    color: #0d1116;
-  }
-}
 
 @media screen {
   @media (max-width: 768px) {

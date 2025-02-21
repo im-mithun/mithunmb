@@ -30,6 +30,25 @@
 .svg-inline--fa {
     color: white;
 }
+.career-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  // Centers all content horizontally
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;  // Keeps everything aligned properly
+  }
+  
+  .career-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;  // Ensures it's centered across the container
+  }
+  
 
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
