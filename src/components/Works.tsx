@@ -8,7 +8,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <h2>Wearable Non-Invasive Continuous Glucose Monitor</h2>
-                <p>Designed a cost-effective wearable CGM device using microwave-based glucose sensing, focusing on reducing costs and increasing lifespan.</p>
+                <p>On work in designing a cost-effective wearable CGM device using microwave-based glucose sensing, focusing on reducing costs and increasing lifespan.</p>
             </div>
             <div className="project">
                 <h2>MERN Full Stack Development</h2>
