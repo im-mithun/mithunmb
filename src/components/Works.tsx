@@ -6,10 +6,7 @@ function Project() {
     <div className="projects-container" id="works">
         <h1>Projects and Internships</h1>
         <div className="projects-grid">
-            <div className="project">
-                <h2>Wearable Non-Invasive Continuous Glucose Monitor</h2>
-                <p>On work in designing a cost-effective wearable CGM device using microwave-based glucose sensing, focusing on reducing costs and increasing lifespan.</p>
-            </div>
+            
             <div className="project">
                 <h2>MERN Full Stack Development</h2>
                 <p>Completed a full-stack development course covering MongoDB, Express.js, React.js, and Node.js, with a project demonstrating practical applications.</p>
