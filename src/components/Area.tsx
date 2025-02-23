@@ -3,7 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
-import '../assets/styles/Expertise.scss';
+import '../assets/styles/Area.scss';
 import { faCogs } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -46,6 +46,7 @@ const labelsSecond = [
 function Expertise() {
     return (
     <div className="container" id="expertise">
+
         <div className="skills-container">
             <h1>Areas</h1>
             <div className="skills-grid">

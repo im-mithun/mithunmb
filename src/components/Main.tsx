@@ -12,7 +12,7 @@ const Typewriter = ({ text }: { text: string }) => {
       const timeout = setTimeout(() => {
         setDisplayedText((prev) => prev + text[index]);
         setIndex((prev) => prev + 1);
-      }, 10); // speed (milliseconds per character)
+      }, 0); // speed (milliseconds per character)
 
       return () => clearTimeout(timeout);
     }
@@ -23,7 +23,7 @@ const Typewriter = ({ text }: { text: string }) => {
 
 function Main() {
   return (
-    <div className="container">
+    <div className="container" id="main">
       <div className="about-section">
         <div className="content">
           <h1>Mithun</h1>

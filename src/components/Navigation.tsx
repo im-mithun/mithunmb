@@ -18,7 +18,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 const drawerWidth = 240;
-const navItems = [['Areas', 'expertise'], ['Career', 'career'], ['Works', 'works'], ['Contact', 'contact']];
+const navItems = [['Home', 'main'],['Areas', 'expertise'], ['Career', 'career'], ['Works', 'works'], ['Contact', 'contact']];
 
 function Navigation({parentToChild}: any) {
 
