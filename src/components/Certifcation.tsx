@@ -4,7 +4,7 @@ import '../assets/styles/Project.scss';
 function Certifcation() {
     return(
     <div className="projects-container" id="works">
-        <h1>Projects and Internships</h1>
+        <h1>Certifcations</h1>
         <div className="projects-grid">
             
             <div className="project">
