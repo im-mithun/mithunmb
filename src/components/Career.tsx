@@ -19,7 +19,7 @@
           >
             <h3 className="vertical-timeline-element-title">B.Tech Mechanical Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">Vellore Institute of Technology, Vellore</h4>
-            <p>CGPA up till 5 sem - 8.76</p>
+            <p>CGPA up till 6 sem - 8.74</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement

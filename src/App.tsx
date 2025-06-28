@@ -6,6 +6,7 @@ import {
   Project,
   Contact,
   Navigation,
+  Certifcation,
 
 } from "./components";
 import FadeIn from './components/FadeIn';
@@ -28,6 +29,7 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
+            <Certifcation/>
             <Contact/>
         </FadeIn>
        

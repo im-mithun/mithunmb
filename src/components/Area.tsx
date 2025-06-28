@@ -53,7 +53,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faCogs} size="3x"/>
                     <h3>Mechanical Design</h3>
-                    <p>I have built a diverse array of CAD models from scratch using modern technologies such as SolidWorks, CATIA, Fusion 360, and Siemens NX.</p>
+                    <p>I have built a diverse array of CAD models from scratch using modern technologies such as SolidWorks, Fusion 360, and Siemens NX.</p>
                     
                 </div>
 
